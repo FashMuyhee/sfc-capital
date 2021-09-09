@@ -6,7 +6,7 @@ import logo from "../../assets/images/logo.png"
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-transparent pt-13 sticky">
+    <Disclosure as="nav" className="bg-transparent pt-13 fixed w-full">
       {({ open }) => (
         <Fragment>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
