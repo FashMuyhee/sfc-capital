@@ -32,7 +32,7 @@ export default function Header() {
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 mr-28">
                     <button className="bg-transparent hover:bg-blue text-white font-bold py-2 rounded w-32">
                       Login
                     </button>
