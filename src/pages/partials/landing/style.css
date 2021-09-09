@@ -24,6 +24,17 @@
   /* margin-top: 26px; */
 }
 
+.calculator-wrapper {
+  width: 1032px;
+  height: 117px;
+  margin: 100px auto 0px auto;
+  padding: 28px 45px 28px 41px;
+}
+
+.input {
+  height: 60px;
+}
+
 @media (max-width: 640px) {
   .landing-container {
     height: 480px;
@@ -32,8 +43,16 @@
     width: 100%;
     height: inherit;
   }
-
+  .landing-text {
+    font-size: 56px;
+  }
   .landing-subtitle {
     width: 100%;
+  }
+  .calculator-wrapper {
+    width: inherit;
+    height: auto;
+    margin: 100px auto 0px auto;
+    padding: 25px;
   }
 }
