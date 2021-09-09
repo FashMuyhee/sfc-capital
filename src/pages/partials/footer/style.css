@@ -1,0 +1,65 @@
+.footer-section {
+  height: 706px;
+}
+.footer-title {
+  width: 535px;
+  height: 130px;
+}
+.footer-title h2 {
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+}
+.footer-title p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.reason-wrapper {
+  margin: 100px auto 0px auto;
+  width: 1000.04px;
+}
+.download-link {
+  width: 65%;
+}
+.contact-info {
+  width: 25%;
+}
+.box {
+  width: 140px;
+  height: 118px;
+}
+
+.box p {
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .reason-wrapper {
+    height: inherit;
+    margin: 100px auto 0px auto;
+    width: inherit;
+  }
+  .footer-section {
+    height: inherit;
+    width: 100%;
+  }
+  .footer-text {
+    font-size: 40px;
+    width: inherit;
+  }
+}

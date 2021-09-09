@@ -35,7 +35,7 @@
   height: 60px;
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .landing-container {
     height: 480px;
   }
