@@ -6,12 +6,16 @@ module.exports = {
     colors: {
       yellow: '#FFD873',
       blue: '#152144',
-      green:'#10C06D',
-      white:"#fff"
+      green: '#10C06D',
+      white: "#fff",
+      gray: "#E3E6EA"
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+
+  ],
 }
